@@ -1,0 +1,9 @@
+{
+  "bot": {
+    "command-prefix": "..",
+    "superusers": [
+      
+    ],
+    "token": "TOKEN HERE"
+  }
+}

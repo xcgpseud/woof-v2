@@ -1,4 +1,5 @@
 ﻿using System;
+using Application.App;
 
 namespace Application
 {
@@ -6,7 +7,7 @@ namespace Application
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Bot.Make().Start().ConfigureAwait(false).GetAwaiter().GetResult();
         }
     }
 }
